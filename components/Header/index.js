@@ -9,7 +9,7 @@ export default function Header({ searchTerm, onSearch }) {
     >
       <a className="ml-5" href="">
         <Image
-          src="/icons/logo-spotify-002.png"
+          src="/images/icons/logo-spotify-002.png"
           width={35}
           height={3}
           alt="Logo"
@@ -24,7 +24,7 @@ export default function Header({ searchTerm, onSearch }) {
         <div className="flex gap-4 bg-[#1F1F1F] hover:bg-[#2A2A2A] px-3 py-2 rounded-full w-96 h-full border border-transparent focus-within:border-white">
           <Image
             className="my-1"
-            src="/icons/search.png"
+            src="/images/icons/search.png"
             width={24}
             height={24}
             alt=""
